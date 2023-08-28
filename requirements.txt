@@ -2,4 +2,4 @@ rich==13.4.2
 clarifai
 langchain
 pyttsx3
-dotenv
+python-dotenv
