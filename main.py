@@ -11,7 +11,7 @@ st.set_page_config(page_title ="Translingo", layout='centered')
 bg.set_bg_hack()
 
 bg.header1("TRANSLINGO")
-
+bg.header2("Instant Sentence Translator!")
 
 clarifai_llm = Clarifai(
     pat='ac8e845902ef4c38b5b863f5b0316b36', user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
