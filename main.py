@@ -1,6 +1,9 @@
 import streamlit as st
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
-CLARIFAI_PAT = os.getenv('CLARIFAI_PAT')
+clarifai_pat = os.getenv('CLARIFAI_PAT')
 
 from langchain.llms import Clarifai
 from langchain import PromptTemplate, LLMChain
@@ -14,7 +17,7 @@ bg.header1("TRANSLINGO")
 bg.header2("Instant Sentence Translator!")
 
 clarifai_llm = Clarifai(
-    pat='ac8e845902ef4c38b5b863f5b0316b36', user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
+    pat=clarifai_pat, user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
 )
 
 
