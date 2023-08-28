@@ -7,10 +7,10 @@ from langchain import PromptTemplate, LLMChain
 import pyttsx3
 import background as bg
 
-st.set_page_config(page_title ="TalkingRecipeBook", layout='centered')
+st.set_page_config(page_title ="Translingo", layout='centered')
 bg.set_bg_hack()
 
-bg.header1("Language learning app")
+bg.header1("TRANSLINGO")
 
 
 clarifai_llm = Clarifai(
