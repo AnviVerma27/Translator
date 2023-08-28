@@ -1,5 +1,6 @@
+python-dotenv
 rich==13.4.2
 clarifai
 langchain
 pyttsx3
-python-dotenv
+
