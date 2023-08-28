@@ -43,7 +43,7 @@ def text_to_speech(text):
 if st.button("Generate Output"):
     if input_txt:
         bg.header3(llm_chain.run(input_txt))
-        text_to_speech(input_txt)
+        #text_to_speech(input_txt)
         st.button('Show similar sentences',on_click=lambda: similar(input_txt))
     else:
         st.write("Please enter something")
