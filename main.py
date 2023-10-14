@@ -16,6 +16,9 @@ bg.header1("Language learning app")
 clarifai_llm = Clarifai(
     pat='ac8e845902ef4c38b5b863f5b0316b36', user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
 )
+speech_model = Clarifai(
+    pat='ac8e845902ef4c38b5b863f5b0316b36',user_id='eleven-labs',app_id='audio-generation',model_id='speech-synthesis'
+)
 
 
 input_txt = st.text_input("enter the text")
@@ -44,6 +47,7 @@ if st.button("Generate Output"):
     if input_txt:
         bg.header3(llm_chain.run(input_txt))
         text_to_speech(input_txt)
+        speech_model(input_txt)
         st.button('Show similar sentences',on_click=lambda: similar(input_txt))
     else:
         st.write("Please enter something")
