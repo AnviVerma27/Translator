@@ -4,7 +4,7 @@
 This apps basically translates a given sentence of any language to english. Not only translates but also tells about the grammar and gives the similar sentences for learning purpose.
 
 ## Deployed Link
-https://translator-esg2b8cttebdeyaehlazrw.streamlit.app/
+[https://translator-esg2b8cttebdeyaehlazrw.streamlit.app/](https://translator-esg2b8cttebdeyaehlazrw.streamlit.app/)
 
 ## Screenshots
 ![file1](https://github.com/AnviVerma27/Translator/assets/114463178/e4d86a6e-1c12-4a57-80d9-50d9dabe57b9)
