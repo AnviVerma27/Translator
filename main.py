@@ -17,7 +17,7 @@ bg.header1("TRANSLINGO")
 bg.header2("Instant Sentence Translator!")
 
 clarifai_llm = Clarifai(
-    pat='', user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
+    pat='ac8e845902ef4c38b5b863f5b0316b36', user_id='meta', app_id='Llama-2', model_id='llama2-70b-chat'
 )
 speech_model = Clarifai(
     pat='ac8e845902ef4c38b5b863f5b0316b36',user_id='eleven-labs',app_id='audio-generation',model_id='speech-synthesis'
